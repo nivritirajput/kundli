@@ -12,14 +12,14 @@
 <link rel="apple-touch-icon" href="icons/icon-180.png">
 <meta name="apple-mobile-web-app-title" content="Kundli Studio">
 <link rel="preload" href="engine.21375ec896.js" as="script">
-<link rel="preload" href="app.739ad2e491.js" as="script">
+<link rel="preload" href="app.8aa9354adc.js" as="script">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#fbf6ef;--card:#fff;--ink:#271d3f;--muted:#7b6c86;--line:#efdfcd;--accent:#e2700f;--accent-d:#b4530a;--accent-2:#5b4bd6;--red:#d24a46;--red-l:#fde8e6}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d0b1d;--card:#17142d;--ink:#f3ecff;--muted:#a99ec4;--line:#2f2950;--accent:#ff9a45;--accent-d:#ffb877;--accent-2:#a99bff;--red:#ff7f78;--red-l:#3d2226}}*{box-sizing:border-box;margin:0;padding:0}body{font-family:Nunito,"Baloo 2",system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink);line-height:1.5;min-height:100vh;overflow-x:hidden}.wrap{max-width:1720px;margin:0 auto;padding:0 16px 40px}header{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:16px 0 12px}.brand{display:flex;align-items:center;gap:10px;background:none;border:0;color:inherit;text-align:left;font:inherit}.logo{width:44px;height:44px;border-radius:14px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:grid;place-items:center}.logo svg{width:32px;height:32px}h1{font-size:1.45rem;color:var(--accent-d)}.btn{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:12px;padding:8px 14px;font:700 1rem system-ui,sans-serif;cursor:pointer}.btn.primary{background:var(--accent);color:#fff;border-color:var(--accent)}.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:16px;margin-bottom:14px}.sub{color:var(--muted);font-size:.9rem}.banner.err{background:var(--red-l);color:var(--red);border-radius:12px;padding:10px 12px;margin-bottom:10px}.skip,.vh{position:absolute;left:-9999px}.options,.sheet,.sidenav:empty,.sidepanel:empty{display:none}.toast{position:fixed;left:-9999px}
 </style>
-<link rel="stylesheet" href="app.c5a2b45ec4.css">
+<link rel="stylesheet" href="app.3af5bff0e6.css">
 </head>
 <body>
 <a class="skip" href="#app">Skip to content</a>
@@ -57,9 +57,9 @@
 <noscript><p style="padding:20px;text-align:center">Kundli Studio needs JavaScript. / कुंडली स्टूडियो के लिए JavaScript चाहिए।</p></noscript>
 <script>
 (function(){"use strict";
-var A={"engine":"engine.21375ec896.js","app":"app.739ad2e491.js","content":"content.0bd07ed289.js","cities":"cities.d2da22b74e.js","phase3":"phase3.9ebf2bfc85.js"},P={};
+var A={"engine":"engine.21375ec896.js","app":"app.8aa9354adc.js","content":"content.0bd07ed289.js","cities":"cities.d2da22b74e.js","phase3":"phase3.b433b28b2c.js"},P={};
 function add(src,ordered){return new Promise(function(ok,no){var s=document.createElement("script");s.src=src;s.async=!ordered;s.onload=function(){ok()};s.onerror=function(){s.parentNode&&s.parentNode.removeChild(s);no(new Error("load failed: "+src))};document.head.appendChild(s)})}
-var L=window.KS_LOADER={assets:A,build:"f1c6d33ad4",load:function(n,ordered){if(!P[n])P[n]=add(A[n],ordered).catch(function(e){delete P[n];throw e});return P[n]},reset:function(n){delete P[n]}};
+var L=window.KS_LOADER={assets:A,build:"2dba8a6afe",load:function(n,ordered){if(!P[n])P[n]=add(A[n],ordered).catch(function(e){delete P[n];throw e});return P[n]},reset:function(n){delete P[n]}};
 function fail(){var m=document.getElementById("app");if(m)m.innerHTML='<div class="card" role="alert"><div class="banner err">⚠️ Kundli Studio could not be loaded. Check the connection and try again.<br>कुंडली स्टूडियो लोड नहीं हो सका। इंटरनेट जाँचें और फिर कोशिश करें।</div><button type="button" class="btn primary" onclick="location.reload()">🔄 Retry / फिर कोशिश करें</button></div>'}
 if(!window.Promise||!document.head){fail();return}
 L.load("content").catch(function(){});
